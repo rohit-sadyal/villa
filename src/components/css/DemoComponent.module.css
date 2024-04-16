@@ -1,0 +1,116 @@
+.div1{
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-bg.jpg);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: rgb(253, 64, 64);
+   
+}
+
+.img{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.videotext{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon{
+    margin-top: -431px;
+   
+}
+
+@media(max-width:768px){
+    .img{
+    height: 300px;
+    width: 500px;
+   
+    }
+}
+@media(max-width:768px){
+.text{
+    font-size: 20px;
+   
+}
+}
+
+@media(max-width:500px){
+    .text{
+        font-size: 20px;
+        
+    
+    }
+    }
+
+    @media(max-width:500px){
+        .img{
+            font-size: 20px;
+           height: 200px;
+           width: 400px;
+        
+        }
+        }
+
+        @media(max-width:500px){
+            .videotext{
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:500px){
+            .div1{
+                height: 500px;
+                
+            }
+        }
+
+        @media(max-width:400px){
+            .div1{
+                height: 450px;  
+            }
+            .img{
+                width: 320px;
+                font-size: 20px;
+                height: 180px;
+            }
+            
+            .text{
+                font-size: 15px;
+                margin-top: 27px;
+            
+            }
+        }
+        @media(max-width:768px){
+           a .icon{
+                margin-top: -340px;
+            }
+        }
+        @media(max-width:500px){
+           a .icon{
+                height: 50px;
+                width: 50px;
+margin-top: -220px;
+            }
+        }
+        
+

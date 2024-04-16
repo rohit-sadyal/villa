@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} */
+
+
+
+
+
+
+.navbar {
+  height: 12vh;
+  width: 100%;
+  line-height: 10vh;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 999;
+  position: fixed;
+  top:0;
+  font-weight: bold;
+}
+
+
+
+.nav-NavLinks {
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+
+}
+
+
+.nav-NavLinks li{
+color: black;
+font-size: 17px;
+font-weight: 800;
+padding: 0 10px;
+margin: 0 10px;
+cursor: pointer;
+text-transform: capitalize;
+text-decoration: none;
+list-style: none;
+}
+
+.nav-NavLinks a{
+  text-decoration: none;
+}
+
+
+button{
+  border: none;
+  background: none;
+  font-size: 20px;
+
+}
+
+.mobile-menu-icon{
+  display: none;
+
+
+}
+li{
+list-style: none;
+font-weight: bold;
+}
+
+
+@media(max-width:768px){
+  .nav-NavLinks{
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .nav-NavLinks a{
+    text-decoration: none;
+  }
+
+  .nav-NavLinks li{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+  }
+  .nav-NavLinks-mobile{
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    left: -10px;
+    top: 100%;
+    transition: all 0.5s ease-in-out;
+    width: 50%;
+    background-color: white;
+    height: 89vh;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+  }
+
+  .nav-NavLinks-mobile a{
+    text-decoration: none;
+    font-weight: 800;
+  }
+  ul li{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    margin-top: -11px;
+    bottom: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-menu-icon{
+    position: absolute;
+    display: block;
+    right: 20px;
+  }
+ 
+
+
+}

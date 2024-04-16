@@ -1,0 +1,35 @@
+.div1{
+    /* height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+   
+}
+
+.div1 .accordion-button{
+    width: 100%;
+}
+
+
+.accordion-button::after{
+    display: none;
+}
+
+
+
+@media(max-width:768px){
+    .div1{
+        width: 100%;
+       
+
+    .accordion{
+        width: 100%;
+    }        
+}}
+
+@media(max-width:430px){
+    .div1,.accordion{
+        width: 100%;
+        font-size: 15px;
+    }}

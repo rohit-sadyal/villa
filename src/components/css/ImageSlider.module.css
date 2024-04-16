@@ -1,0 +1,30 @@
+.p{
+    width: max-content;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+
+.span1{
+    color: orange;
+    font-family: sans-serif;
+}
+
+h3{
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    font-family: sans-serif;
+}
+
+@media(max-width:768px){
+    h3{
+        font-size: 40px;
+    }
+}
